@@ -37,16 +37,18 @@ a {
   display: flex;
   gap: 3rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .horizontal-container {
   display: flex;
   gap: 3rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-screenshot {
-  width: 24rem;
+  max-width: 24rem;
   outline-color: white;
   outline-style: solid;
   outline-width: 1px;
@@ -55,4 +57,22 @@ a {
 
 .project-screenshot:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .logo {
+    max-width: 3rem;
+  }
 }
