@@ -1,0 +1,58 @@
+body {
+  background-color: #202020;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1 {
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  display: block;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: underline;
+  color: white;
+}
+
+.logo {
+  max-width: 6rem;
+}
+
+.project-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.horizontal-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.project-screenshot {
+  width: 24rem;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 1px;
+  transition: transform 0.2s 0.1s;
+}
+
+.project-screenshot:hover {
+  transform: scale(1.05);
+}
