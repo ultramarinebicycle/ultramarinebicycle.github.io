@@ -118,6 +118,13 @@ li {
   font-weight: 600;
 }
 
+.post-image {
+  max-width: 50rem;
+  max-height: 20rem;
+  display: block;
+  margin: auto;
+}
+
 #footer-text {
   color: white;
   text-align: left;
@@ -169,6 +176,14 @@ li {
 
   .horizontal-container {
     gap: 2rem;
+  }
+
+  .post-image {
+    max-width: 100%;
+  }
+
+  html {
+    font-size: 12px;
   }
 }
 
