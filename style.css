@@ -110,7 +110,7 @@ a {
 
 .post-content p,
 li {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .post-content h2 {
@@ -119,8 +119,8 @@ li {
 }
 
 .post-image {
-  max-width: 50rem;
-  max-height: 20rem;
+  max-width: 60rem;
+  max-height: 30rem;
   display: block;
   margin: auto;
 }
