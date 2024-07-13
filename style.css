@@ -108,6 +108,16 @@ a {
   height: 32px;
 }
 
+.post-content p,
+li {
+  font-size: 1.6rem;
+}
+
+.post-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 #footer-text {
   color: white;
   text-align: left;
