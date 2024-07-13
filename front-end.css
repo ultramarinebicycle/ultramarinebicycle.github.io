@@ -9,13 +9,15 @@ h1 {
   font-weight: 600;
   text-align: center;
   font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
 }
 
 h2 {
   display: block;
   font-weight: 600;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 h3 {
@@ -59,6 +61,60 @@ a {
 
 .project-screenshot:hover {
   transform: scale(1.05);
+}
+
+.footer {
+  background-color: #454545;
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-links a {
+  margin-right: 20px;
+}
+
+.footer-links img {
+  height: 32px;
+}
+
+#footer-text {
+  color: white;
+  text-align: left;
+  width: 100vw;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  width: fit-content;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+#nav-links a {
+  text-decoration: none;
+}
+
+#nav-links a:hover {
+  color: grey;
+}
+
+#subtitle {
+  font-weight: 300;
+  margin-top: 0;
 }
 
 @media (max-width: 768px) {
