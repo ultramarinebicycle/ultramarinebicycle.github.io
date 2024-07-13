@@ -109,3 +109,37 @@ p {
   width: fit-content;
   margin: auto;
 }
+
+#divider {
+  max-width: 40rem;
+  margin: 2rem auto;
+  height: 2px;
+  background-color: gray;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    max-width: 3rem;
+  }
+
+  #divider {
+    margin: 2rem;
+  }
+
+  #nav-links {
+    gap: 1rem;
+  }
+
+  #footer-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
