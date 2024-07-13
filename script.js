@@ -8,7 +8,9 @@ fetch("posts.json")
     posts.forEach((post) => {
       const listItem = document.createElement("li");
       listItem.innerHTML = `
-        <h2><a href="${post.url}">${post.title}</a></h2>
+        <h2 style="margin-top: 1rem; margin-bottom: 0.5rem">
+        <a href="${post.url}" style="font-size: 2rem">${post.title}</a>
+        </h2>
         <p>${post.date}</p>
       `;
       blogList.appendChild(listItem);
