@@ -10,9 +10,9 @@ fetch("posts.json")
       listItem.style.margin = 0;
       listItem.innerHTML = `
         <h2 style="margin-top: 1rem; margin-bottom: 0.5rem">
-        <a href="${post.url}" style="font-size: 2rem">${post.title}</a>
+        <a href="${post.url}" style="font-size: 2rem" id="nav-links">${post.title}</a>
         </h2>
-        <p style="margin: 0">${post.date}</p>
+        <p style="margin: 0; text-align: center">${post.date}</p>
       `;
       blogList.appendChild(listItem);
     });
